@@ -1,0 +1,1033 @@
+@charset "utf-8";body{margin:0;font-family:Arial;font-size:12px;background:#fff}
+.slider-wrapper.theme-default{position:relative}
+#bigPic{width:750px;height:250px;overflow:hidden}
+#bigPic img{width:750px;height:250px;display:none;position:absolute}
+#thumbs_slider{position:absolute;right:10px;bottom:10px;z-index:999}
+#thumbs_slider li{display:inline-block;padding:3px 8px;background:white;cursor:pointer}
+#thumbs_slider li.active{color:red}
+#main{width:1000px;margin-left:auto;margin-right:auto;background-color:#fff;padding:0}
+#main .paddings{padding:5px}
+img{border:0}
+.clear{clear:both}
+.space{padding-top:4px}
+.spacer{height:2px;font-size:2px}
+h1,h2,h3,p,span,form{padding:0;margin:0}
+.left{float:left}
+.right{float:right}
+.boxInput{border:1px solid #999}
+.pic{background-image:url("https://sites.google.com/site/shidienthoai07/pic.png");background-repeat:no-repeat}
+#tabMenuTop1{border-bottom:0 solid #999;float:left;width:100%}
+#tabMenuTop1 ul{margin:0;padding:0;height:32px}
+#tabMenuTop1 li{display:inline;margin:0}
+#tabMenuTop1 a{float:left;background:url(https://sites.google.com/site/shidienthoai07/menuL.jpg) left top no-repeat;padding:0 0 0 3px;text-decoration:none}
+#tabMenuTop1 a span{background:url(https://sites.google.com/site/shidienthoai07/menuR.jpg) right top no-repeat;display:block;padding:13px 22px 10px;font-family:Tahoma;font-size:11px;color:#fff;font-weight:bold;text-decoration:none;text-transform:uppercase}
+#tabMenuTop1 a span{float:none}
+#tabMenuTop1 a:hover{background-position:0% -36px}
+#tabMenuTop1 a:hover span{background-position:100% -36px;font-family:Tahoma;font-size:11px;color:#fff;text-decoration:none;font-weight:bold;text-transform:uppercase}
+#tabMenuTop1 .curent a{background-position:0% -36px}
+#tabMenuTop1 .curent a span{background-position:100% -36px;font-family:Tahoma;font-size:11px;color:#fff;text-decoration:none;font-weight:bold;text-transform:uppercase}
+#tabMenuTop1 div{float:left;background:url(https://sites.google.com/site/shidienthoai07/bggTap.jpg) repeat-x;height:36px;width:1000px}
+#tabMenuTop{border-bottom:0 solid #999;float:left;width:100%}
+#tabMenuTop ul{margin:0;padding:0;height:40px}
+#tabMenuTop li{display:inline;margin:0}
+#tabMenuTop a{float:left;background:url(https://sites.google.com/site/shidienthoai07/menuL.jpg) left top no-repeat;padding:0 0 0 4px;text-decoration:none}
+#tabMenuTop a span{background:url(https://sites.google.com/site/shidienthoai07/menuR.jpg) right top no-repeat;display:block;padding:15px 12px 12px;font-family:Tahoma;font-size:11px;color:#fff;font-weight:bold;text-decoration:none}
+#tabMenuTop a span{float:none}
+#tabMenuTop a:hover{background-position:0% -40px}
+#tabMenuTop a:hover span{background-position:100% -40px;font-family:Tahoma;font-size:11px;color:#0575fd;text-decoration:none;font-weight:bold}
+#tabMenuTop .curent a{background-position:0% -40px}
+#tabMenuTop .curent a span{background-position:100% -40px;font-family:Tahoma;font-size:11px;color:#0575fd;text-decoration:none;font-weight:bold}
+#tabMenuTop .bggMenu{background:url(https://sites.google.com/site/shidienthoai07/bggTap.jpg) repeat-x;height:40px;width:962px}
+.menuHome{width:40px}
+.bggHeader{background:url(https://sites.google.com/site/shidienthoai07/bggHeader.jpg) no-repeat;height:157px;width:1000px}
+#tabMenuDm{border-bottom:0 solid #999;float:left;width:100%}
+#tabMenuDm ul{margin:0;padding:0}
+#tabMenuDm li{display:inline;margin:0}
+#tabMenuDm a{float:left;padding:0 0 0 10px;text-decoration:none}
+#tabMenuDm a span{display:block;padding:8px 9px 4px 1px;font-size:14px;color:#fff;text-decoration:none;font-weight:bold}
+#tabMenuDm a span{float:none}
+#tabMenuDm a:hover{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_left.png) left top no-repeat;background-position:0% -28px}
+#tabMenuDm a:hover span{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_right.png) right top no-repeat;background-position:100% -28px;font-size:14px;color:#000;text-decoration:none;font-weight:bold}
+#tabMenuDm .curent a{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_left.png) left top no-repeat;background-position:0% -28px}
+#tabMenuDm .curent a span{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_right.png) right top no-repeat;background-position:100% -28px;font-size:14px;color:#000;text-decoration:none;font-weight:bold}
+#tabMenuDm .bgg{float:left;background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_bgg.jpg) repeat-x;height:29px;width:976px;border-left:0 solid #b1b1b1;border-right:0 solid #b1b1b1}
+.tabMenuDmL{width:4px;background:url(https://sites.google.com/site/shidienthoai07/tabMenuDmL.jpg) no-repeat;height:29px}
+.tabMenuDmR{width:10px;background:url(https://sites.google.com/site/shidienthoai07/tabMenuDmR.jpg) no-repeat;height:43px}
+.bggHeader .text .textL{width:700px}
+.bggHeader .text .textR{width:275px}
+.bggHeader .text .textL{color:#feb100;padding:8px 0 10px}
+.bggHeader .text .textR{font-size:14px;color:#fff;padding:8px 0 10px 4px}
+.bggHeader .text .textR a{color:#fff;text-decoration:none}
+.bggHeader .text .textL a{color:#feb100;font-size:15px;font-weight:bold;text-decoration:none}
+.bggHeader .text .textL a:hover{color:#FFF}
+.bggHeader .logo{width:180px;text-align:right}
+.bggHeader .slogan{width:520px;text-align:right}
+.bggHeader .slogan div{padding:20px 20px 0 0}
+.bggHeader .login{width:280px}
+.bggHeader .login .text{width:78px;padding-right:10px;color:#fff;font-size:15px;padding-top:5px}
+.bggHeader .login .text_input{width:188px;padding-top:5px}
+.bggHeader .login .text_input .box_input{width:180px}
+.bggHeader .login .text_input .box_input_{width:147px}
+.bggHeader .buid_download{text-align:right;color:#feb100}
+.bggHeader .buid_download a{color:#feb100;font-size:15px;font-weight:bold;text-decoration:none}
+.bggHeader .buid_download a:hover{color:#fff}
+.topLeft{width:6px;background:url(https://sites.google.com/site/shidienthoai07/topLeft.jpg) no-repeat;height:144px}
+.topRight{width:6px;background:url(https://sites.google.com/site/shidienthoai07/topRight.jpg) no-repeat;height:144px}
+.topCenter{width:968px;background:url(https://sites.google.com/site/shidienthoai07/topCenter.jpg) repeat-x;height:144px}
+.logo{width:400px;padding:20px 0 0 5px}
+.headerRight{width:560px;padding-top:20px;text-align:right}
+.headerRight div{color:#002f84}
+.headerRight div a{font-size:11px;font-weight:bold;color:#002f84;text-decoration:none}
+.headerRight div a:hover{text-decoration:underline}
+.headerRight p{padding-top:20px}
+.bggTitleHotline{background:url(https://sites.google.com/site/shidienthoai07/bggTitleHotline.jpg) no-repeat;height:27px;width:200px}
+.bggTitleHotline div{padding:4px 0 0 10px;color:#121212;font-size:11px;font-weight:bold}
+.bggProList{background:url(https://sites.google.com/site/shidienthoai07/bggProList.jpg) repeat-x;height:32px;width:555px;border-left:1px solid #dbdbdb;border-right:1px solid #dbdbdb}
+.bggProList div{width:140px;float:left;padding:5px 0 0 5px}
+.bggProList span{width:430px;display:block;float:left;text-align:right;padding-top:5px}
+#productImageBox{vertical-align:middle}
+#proImageThum{margin-top:5px;text-align:center}
+#proImageThum td{width:67px;height:58px;border:0 solid #CCC;vertical-align:middle;background:url(https://sites.google.com/site/shidienthoai07/proImageThum.gif) no-repeat}
+.product_thum_select{background-color:#EEE}
+#dropmenudiv{position:absolute;border-top-width:0;font-family:Tahoma;font-size:11px;line-height:18px;z-index:9999;margin-top:0;border-radius:7px;border:1px solid #CCC;box-shadow:2px 2px 2px #CCC}
+#dropmenudiv a{width:100%;display:block;text-indent:3px;padding:3px 0;text-decoration:none;border-bottom:1px solid #ccc;color:#000}
+#dropmenudiv a:hover{color:#fff;background-color:#F00}
+.background{background:url(https://sites.google.com/site/shidienthoai07/background.gif) no-repeat;height:166px}
+ul{list-style:none;margin:0;padding:0}
+.menu_header{background:url(https://sites.google.com/site/shidienthoai07/bggCateL.jpg) no-repeat;height:35px;width:190px}
+.menu_header1{background:url(https://sites.google.com/site/shidienthoai07/bggCateL1.jpg) no-repeat;height:35px;width:190px}
+.menu_header div{text-transform:uppercase;color:#FFF;font-weight:bold;padding-left:25px;padding-top:7px}
+.menu_header div a{text-transform:uppercase;color:#FFF;font-weight:bold;text-decoration:none}
+.menu_header1 div{text-transform:uppercase;color:#FFF;font-weight:bold;padding-left:25px;padding-top:7px}
+.menu_header1 div a{text-transform:uppercase;color:#FFF;font-weight:bold;text-decoration:none}
+.menu_cat_group{border-left:1px solid #ccc;border-right:1px solid #ccc}
+.sub_menu_cat li a{display:inline;display:block;background:url("https://sites.google.com/site/shidienthoai07/bggL.jpg") no-repeat;padding:5px 0 5px 10px;text-decoration:none;color:#000;text-decoration:none;font-weight:bold;font-family:Arial}
+.sub_menu_cat li a:hover{background-position:0% -25px;color:#000}
+.sub_menu_cat li{float:none}
+.sub_menu_cat li c #current{background-position:0% -25px;color:#C00}
+.bggUnderMenu{background-color:#ccc;height:34px;width:100%}
+.bggUnderMenu .text{padding:7px 0 0 10px;font-size:15px;font-weight:bold}
+.bggUnderMenu .search{width:760px;margin-left:10px}
+.bggUnderMenu .search div{float:left}
+.bggUnderMenuL{background:url(https://sites.google.com/site/shidienthoai07/bggUnderMenuL.jpg) no-repeat;height:35px;width:10px}
+.bggUnderMenuR{background:url(https://sites.google.com/site/shidienthoai07/bggUnderMenuR.jpg) no-repeat;height:35px;width:10px}
+.bggUnderMenu .cart{padding-top:3px;width:220px; height:31px;font-size:14px}
+.bggUnderMenu .cart div{padding:5px 0 0 50px}
+.bggUnderMenu .cart div a{color:#000;text-decoration:none}
+.bggUnderMenu .download{padding-top:9px;width:520px;margin-right:10px;text-align:right}
+.bggUnderMenu .download a{color:#002e86;font-family:Arial,Helvetica,sans-serif;font-size:12px;text-decoration:none}
+.bggUnderMenu .download a:hover{text-decoration:underline}
+.headertop_left{width:643px}
+.headertop_right{width:337px;background:url(https://sites.google.com/site/shidienthoai07/header_right.jpg) no-repeat;height:166px}
+.textHeader{text-align:right;padding-top:3px;padding-right:10px}
+.textHeader a{color:#040100;text-decoration:none;font-size:11px}
+.textHeader a:hover{text-decoration:underline}
+.cartHeader{padding-top:95px;text-align:right;padding-right:20px;font-size:12px;font-family:Arial}
+.cartHeader span{color:#fd0000}
+.voteTop{background:url(https://sites.google.com/site/shidienthoai07/voteTop.jpg) no-repeat;height:38px;width:190px}
+.voteTop div{color:#FFF;font-weight:bold;padding:4px 0 0 4px}
+.boxVote{background-color:#2166b1;color:#FFF;font-weight:bold}
+.bggInputSearch{width:335px;border:0 solid #a8acad;color:#000;font-size:12px;height:23px}
+.bggSearch{padding-top:0;width:345px;height:22px;margin-right:0}
+.bggSearch span{padding-top:0;display:block;padding-left:5px}
+.bggInputLogin{width:270px;border:1px solid #a8acad;color:#979797;font-size:11px;background:url(https://sites.google.com/site/shidienthoai07/bggSearch.jpg) repeat-x;height:22px;padding-top:3px}
+.padd_body{padding-left:4px;padding-right:4px}
+.column_left{width:190px;margin-right:10px}
+.column_center{width:750px}
+.column_right{width:230px}
+.column_right .paddings{padding-left:10px}
+.bgg_right{background:url(https://sites.google.com/site/shidienthoai07/bgg_cate_news.jpg) no-repeat;height:24px;width:201px}
+.bgg_right div{width:166px;float:left;padding:4px 0 0 8px;color:#f40309;text-transform:uppercase;font-weight:bold}
+.bgg_right span{width:26px;float:left;display:block;padding:6px 0 0}
+.bgg_right p{clear:both}
+.box-support{border-left:1px solid #dadada;border-bottom:1px solid #dadada;border-right:1px solid #dadada;background:url(https://sites.google.com/site/shidienthoai07/bgg_support.jpg) repeat-x bottom;height:143px;line-height:18px}
+.box-support b{font-size:11px}
+.bgg_support{background:url(https://sites.google.com/site/shidienthoai07/httt.jpg) no-repeat;width:202px;height:175px}
+.paddings{padding-left:10px}
+.box-pro-hot{background:url(https://sites.google.com/site/shidienthoai07/bggsphot.jpg) repeat-y;width:190px}
+.box-pro-hot .padding-hot{padding:4px}
+.imgHotL{width:75px;margin-right:8px;margin-left:4px;margin-bottom:3px;margin-top:3px;background:url(https://sites.google.com/site/shidienthoai07/bggImgL.jpg) repeat-y;height:75px}
+.imgHotL div{padding-top:4px;text-align:center}
+.infoHotR{width:93px;margin-top:3px}
+.infoHotR a{font-size:11px;color:#0b66c1;text-decoration:none;font-weight:bold}
+.priceLeft{padding-top:3px;padding-bottom:4px;font-weight:bold;color:#fe0007;font-family:arial;font-size:12px}
+.box-guide{background:url(https://sites.google.com/site/shidienthoai07/bggtuvan.jpg) repeat-y;width:190px}
+.bannerHome{width:570px;margin-right:10px}
+.newsHome{width:200px}
+.bggSupport{background:url(https://sites.google.com/site/shidienthoai07/bggSupport.jpg) no-repeat;width:200px;height:105px}
+.bggSupport span{display:block;font-size:11px;padding:25px 0 0 5px}
+.bggNewsHome{background:url(https://sites.google.com/site/shidienthoai07/bggTinHome.jpg) no-repeat;width:200px;height:29px}
+.bggNewsHome div{font-weight:bold;padding-top:7px;padding-left:30px;font-family:Arial;text-transform:uppercase}
+.boxNewsHome{border-left:1px solid #c2c2c2;border-right:1px solid #c2c2c2;height:105px}
+.title_spec{color:#595959;font-size:18px;font-weight:bold}
+.bgg_support .padding{padding:10px;color:#4b4b4b;line-height:20px}
+.bgg_support .padding .iconusd{padding-right:20px}
+.bgg_support .login{width:85px}
+.bgg_support .fogetPass{width:90px}
+.bgg_support .fogetPass a{color:#026afd}
+.bgg_support span{display:block;padding-top:4px}
+.boxNews{border-left:1px solid #c8c8c8;border-right:1px solid #c8c8c8}
+.boxNews .padding{padding:4px}
+.boxNews .padding .imgicon{padding-right:40px}
+.boxNews .padding .imgcom{padding-right:20px}
+.bggColor{background-color:#f3f1f2;padding-top:10px;padding-bottom:10px}
+.bggColor1{padding-top:10px;padding-bottom:10px}
+.imgNews{width:55px;margin:3px;text-align:center;border:1px solid #ededed;padding:2px}
+.infoNews{width:130px;color:#066bc3}
+.infoNews span a{color:#0967be;text-decoration:none;display:block;font-size:12px;font-family:Arial}
+.infoNews span a:hover{text-decoration:underline}
+.infoNews div{text-align:right}
+.infoNews a{color:#fd030d;text-decoration:none;font-size:11px}
+.bggLk{background:url(https://sites.google.com/site/shidienthoai07/bggLk.jpg) no-repeat;width:202px;height:77px}
+.bggLk div{text-align:center;padding-top:40px}
+.productListL{width:555px}
+.productListR{width:205px;margin-right:10px}
+.ssL{width:262px;background:url(https://sites.google.com/site/shidienthoai07/ssL.jpg) no-repeat;height:37px}
+.ssL div{padding-top:3px;padding-left:5px}
+.ssR{width:294px;background:url(https://sites.google.com/site/shidienthoai07/ssR.jpg) repeat-x;height:31px}
+.ssR div{color:#fff;padding-top:4px;text-align:right;padding-right:5px}
+.checkbox{width:17px;margin-right:3px;height:125px}
+.checkbox div{padding-top:30px}
+.imglist{width:115px;margin-right:10px;text-align:center}
+.infolist{width:270px}
+.infolist1{width:484px}
+.pricelist{width:137px;text-align:center}
+.menuListL{background:url(https://sites.google.com/site/shidienthoai07/menuListL.jpg) no-repeat;width:25px;height:32px}
+.menuListC{background:url(https://sites.google.com/site/shidienthoai07/menuListC.jpg) repeat-x;width:530px;height:32px}
+.menuListC1{background:url(https://sites.google.com/site/shidienthoai07/menuListC.jpg) repeat-x;width:730px;height:32px}
+.menuListR{background:url(https://sites.google.com/site/shidienthoai07/menuListR.jpg) no-repeat;width:15px;height:32px}
+.boxList{border-left:0 solid #dbdbdb;border-right:0 solid #dbdbdb;border-bottom:0 solid #dbdbdb}
+.compare{width:290px;padding-top:5px;padding-left:4px}
+.compare1{width:490px;padding-top:7px;padding-left:4px;font-weight:bold}
+.special_all{padding:4px;text-align:right}
+.special_all a{color:#086cc4}
+.special_all a:hover{text-decoration:none}
+.order{width:230px;padding-top:5px;text-align:right;font-size:11px}
+.homeBanner{width:427px}
+.homeBannerLogo{width:353px;background:url(/includhttps://sites.google.com/site/shidienthoai07/bggLogo.jpg) no-repeat;height:80px}
+.homeBannerLogo div{padding:12px 10px 5px}
+.line{border-bottom:1px dotted #c3c3c3;margin-bottom:5px}
+.header_right{width:758px;text-align:right}
+.header_top{padding-top:4px;color:#ffeb05;font-weight:bold;font-size:11px}
+.header_top a{text-decoration:none;color:#ffeb05;font-weight:bold;font-size:11px}
+.header_top a:hover{text-decoration:underline}
+#header_hotline{font-size:18px;color:#FF6}
+#header_hotline span{font-size:30px;font-weight:bold}
+.header_bottom{padding-top:40px;font-size:11px;font-weight:bold;color:#FFF}
+.header_bottom a{font-size:11px;font-weight:bold;color:#FFF;text-decoration:none}
+.header_bottom a:hover{text-decoration:underline}
+.menu_left{width:738px}
+.menu_search{width:260px;float:left}
+.buttonfind{width:63px}
+.bggMenuBot{background:url(https://sites.google.com/site/shidienthoai07/bggMenuBot.gif) repeat-x;height:37px}
+.news_hot{width:650px;padding-top:7px;margin-left:10px}
+.news_hot a{font-weight:bold;font-size:11px;color:#b22c2d;text-decoration:none}
+.cart_link{color:#ffec0b;font-weight:bold;font-size:11px;padding-top:10px;padding-left:50px}
+.cart_link a{color:#ffec0b;font-weight:bold;font-size:11px;text-decoration:none}
+.buy_guide a{color:#FFF}
+.bhtt_bgg{background:url(https://sites.google.com/site/shidienthoai07/bhtt_bgg.gif) repeat-y;width:198px}
+.bggEmail{background:url(https://sites.google.com/site/shidienthoai07/bggEmail.gif) no-repeat;height:88px}
+.bggEmail div{padding-top:15px;padding-left:12px}
+.input_email{width:182px;background:url(https://sites.google.com/site/shidienthoai07/bgg_input_email.gif) repeat-x;height:25px;border:0;color:#616161;font-size:11px}
+.bggEmail p{text-align:right;margin-top:10px;margin-right:5px}
+.box_news{border-left:1px solid #d9d7d8;border-right:1px solid #d9d7d8}
+.box_news div{padding:4px}
+.news_left a{color:#006bc3;text-decoration:none;font-size:12px}
+.news_left a:hover{text-decoration:underline}
+.choice_buy_product{background:url(https://sites.google.com/site/shidienthoai07/chonmua.jpg) no-repeat;height:253px;width:789px}
+.choice_buy_product_box{width:225px;text-align:center;padding-top:60px}
+.choice_buy_product_box div{height:125px}
+.choice_buy_product_box p{font-weight:bold;padding-bottom:15px}
+.choice_buy_product_box p a{color:#2174ea;font-weight:bold;text-decoration:none}
+.choice_buy_product_box p a:hover{text-decoration:underline}
+#tabMenuTop ul{margin:0;padding:0;width:962px;float:center;font-family:Arial;font-size:12px;text-decoration:none}
+#tabMenuTop li{float:left;position:relative;font-family:Arial;font-size:12px;text-decoration:none;outline:none}
+#tab_menu ul.level1{width:162px;background:url(includhttps://sites.google.com/site/shidienthoai07/top.gif) no-repeat left top;margin:0;padding:7px 0 10px;position:absolute;left:2px;top:10px;display:none;z-index:300}
+#tab_menu ul.level1.left{left:-70px}
+#tab_menu ul.level1 li{width:155px;float:left;margin:0;background:#000 left top;height:auto;line-height:normal;padding-left:7px}
+#tab_menu ul.level1 li.end{height:11px;padding-top:0;font-size:1px}
+#tab_menu ul.level1 li a{background:#000 url(includhttps://sites.google.com/site/shidienthoai07/arow_3x5.gif) no-repeat 4px 10px;width:130px;border-top:1px solid #474749;float:left;font-size:12px;color:#fff;text-align:left;padding:5px 0 5px 15px}
+#tab_menu ul.level1 li a:hover{background:#474749 url(includhttps://sites.google.com/site/shidienthoai07/arow_3x5.gif) no-repeat 4px 10px;border-bottom:1px solid #000;color:#f60;text-decoration:none;border-top:none}
+#tab_menu ul.level1 li.active a{background:#474749 url(includhttps://sites.google.com/site/shidienthoai07/arow_3x5.gif) no-repeat 4px 10px;border-bottom:1px solid #000;color:#f60;text-decoration:none}
+#tabMenu{float:left}
+#tabMenu ul{margin:0;padding:0}
+#tabMenu li{display:inline;margin:0}
+#tabMenu a{float:left;background:url(https://sites.google.com/site/shidienthoai07/menuL.jpg) left top no-repeat;padding:0 0 0 10px;text-decoration:none}
+#tabMenu a span{background:url(https://sites.google.com/site/shidienthoai07/menuR.jpg) right top no-repeat;display:block;padding:11px 12px 4px 8px;font-family:Tahoma;font-size:11px;font-weight:bold;color:#000;text-transform:uppercase}
+#tabMenu a span{float:none}
+#tabMenu a:hover{background-position:0% -40px}
+#tabMenu a:hover span{background-position:100% -40px;font-family:Tahoma;font-size:11px;font-weight:bold;color:#fff;text-transform:uppercase}
+#tabMenu .curent a{background-position:0% -40px}
+#tabMenu .curent a span{background-position:100% -40px;font-family:Tahoma;font-size:11px;font-weight:bold;color:#fff;text-transform:uppercase}
+#tabMenu .bggMenu{background:url(https://sites.google.com/site/shidienthoai07/bggMenu.jpg) repeat-x;height:40px;width:753px}
+#tabMenuDmPro{border-bottom:0 solid #999;float:left;width:100%}
+#tabMenuDmPro ul{margin:0;padding:0}
+#tabMenuDmPro li{display:inline;margin:0}
+#tabMenuDmPro a{float:left;background:url(https://sites.google.com/site/shidienthoai07/bg_title_tab.png) right top no-repeat;padding:0 0 0 9px;text-decoration:none;display:block;height:28px;padding-left:33px;line-height:28px;padding-right:30px;text-transform:uppercase;margin-right:-16px}
+#tabMenuDmPro a span{display:block;font-family:Tahoma;font-size:11px;color:#413d3a;text-decoration:none;font-weight:bold}
+#tabMenuDmPro a span{float:none}
+#tabMenuDmPro a:hover{background:url(https://sites.google.com/site/shidienthoai07/bg_title_tab_active.png) right top no-repeat;color:white}
+#tabMenuDmPro a:hover span{background-position:100% -0;font-family:Tahoma;font-size:11px;color:#ff7021;text-decoration:none;font-weight:bold}
+#tabMenuDmPro .curent a{background:url(https://sites.google.com/site/shidienthoai07/bg_title_tab_active.png) right top no-repeat;color:white;font-weight:bold}
+#tabMenuDmPro .curent a span{background-position:100% -0;font-family:Tahoma;font-size:11px;color:#ff7021;font-weight:bold;text-decoration:none;font-weight:bold}
+#tabMenuDmPro .bgg{float:left;background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_bgg1.jpg) repeat-x;height:20px;width:750px;border-left:0 solid #b1b1b1;border-right:0 solid #b1b1b1}
+#tabMenuDmPro .bggL{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_bgg1L.jpg) no-repeat;width:8px;height:29px}
+#tabMenuDmPro .bggR{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_bgg1R.jpg) no-repeat;width:8px;height:29px}
+#tabNewsHot{float:left}
+#tabNewsHot ul{margin:0;padding:0}
+#tabNewsHot li{display:inline;margin:0}
+#tabNewsHot a{float:left;background:url(https://sites.google.com/site/shidienthoai07/rightL.jpg) left top no-repeat;padding:0 0 0 9px;text-decoration:none}
+#tabNewsHot a span{background:url(https://sites.google.com/site/shidienthoai07/rightR.jpg) right top no-repeat;display:block;padding:14px 10px 9px;font-family:Tahoma;font-size:11px;font-weight:bold;color:#000}
+#tabNewsHot a span{float:none}
+#tabNewsHot a:hover{background-position:0% -38px}
+#tabNewsHot a:hover span{background-position:100% -38px;font-family:Tahoma;font-size:11px;font-weight:bold;color:#fe0100}
+#tabNewsHot .curent a{background-position:0% -38px}
+#tabNewsHot .curent a span{background-position:100% -38px;font-family:Tahoma;font-size:11px;font-weight:bold;color:#fe0100}
+#tabNewsHot .tabNewsHotC{background:url(https://sites.google.com/site/shidienthoai07/bgg_menu_home.jpg) repeat-x;height:38px;width:553px}
+#tabNewsHot .tabNewsHotL{background:url(https://sites.google.com/site/shidienthoai07/cateProHomeL.jpg) no-repeat;width:210px;height:38px}
+#tabNewsHot .tabNewsHotL1{background:url(https://sites.google.com/site/shidienthoai07/cateProHomeL1.jpg) no-repeat;width:21px;height:35px}
+#tabNewsHot .tabNewsHotR{background:url(https://sites.google.com/site/shidienthoai07/cateProHomeR.jpg) no-repeat;width:17px;height:38px}
+#tabNewsHot .tabNewsHotR1{background:url(https://sites.google.com/site/shidienthoai07/cateProHomeR1.jpg) no-repeat;width:17px;height:38px}
+#tabNewsHot .tabNewsHotL div{color:#fff;font-weight:bold;padding-top:12px;padding-left:14px;text-transform:uppercase;font-family:Arial}
+#tabCateHot .tabNewsHotL div{color:#fff;font-weight:bold;padding-top:12px;padding-left:14px;text-transform:uppercase;font-family:Arial}
+.tabProHomeL{background:url(https://sites.google.com/site/shidienthoai07/tabProHomeL.jpg) no-repeat;width:12px;height:32px}
+.tabProHomeR{background:url(https://sites.google.com/site/shidienthoai07/tabProHomeR.jpg) no-repeat;width:12px;height:32px}
+.tabProHomeC{background:url(https://sites.google.com/site/shidienthoai07/tabProHomeC.jpg) repeat-x;width:746px;height:32px}
+.tabProHomeC div{padding:3px 0 0}
+.left_center{background:url(https://sites.google.com/site/shidienthoai07/left_center.jpg) repeat-y;width:205px}
+.left_center .title_left{width:164px;padding-bottom:5px}
+.left_center .icon_left{width:15px;padding-bottom:5px}
+.left_center .padd{padding:5px 0 0 15px}
+.left_child_center{padding-left:0}
+.left_child_center .padd{padding:5px}
+.left_child_center .img_news{width:60px;padding-top:5px}
+.left_child_center .text_news{width:145px;line-height:18px}
+.left_child_center .title a{color:#000;text-decoration:none}
+.left_child_center .title a:hover{text-decoration:underline}
+.tabProHomeLOther{background:url(https://sites.google.com/site/shidienthoai07/tabProHomeLOther.jpg) no-repeat;width:265px;height:43px}
+.tabProHomeROther{background:url(https://sites.google.com/site/shidienthoai07/tabProHomeROther.jpg) no-repeat;width:39px;height:43px}
+.tabProHomeCOther{background:url(https://sites.google.com/site/shidienthoai07/tabProHomeCOther.jpg) repeat-x;width:466px;height:43px}
+.proRelate{background:url(https://sites.google.com/site/shidienthoai07/proRelate.jpg) repeat-x;width:770px;height:28px}
+.proRelate div{color:#4e4e4e;text-transform:uppercase;padding:6px 0 0 26px;font-weight:bold;font-size:11px}
+.save{text-align:right}
+.save a{text-decoration:none;color:#002d88;font-family:Arial,Helvetica,sans-serif}
+.bggFooterhrr{border:4px solid #e5e5e5}
+.bggF1{width:243px;height:160px;margin-right:2px}
+.bggF1 div{padding:15px 5px 0 30px;color:#000;line-height:20px}
+.bggF1 div a{color:#000;text-decoration:none}
+.bggF1 div a:hover{text-decoration:underline}
+#tabCateHot .tabNewsHotL{background:url(https://sites.google.com/site/shidienthoai07/cateProHomeL.jpg) no-repeat;width:210px;height:38px}
+#tabCateHot .tabNewsHotR1{background:url(https://sites.google.com/site/shidienthoai07/cateProHomeR1.jpg) no-repeat;width:17px;height:38px}
+#tabCateHot .tabNewsHotC1{background:url(https://sites.google.com/site/shidienthoai07/bgg_menu_home.jpg) repeat-x;height:38px;width:343px}
+#tabCateHot .tabNewsHotC1 div{float:left;width:190px;padding-top:15px;text-align:right}
+#tabCateHot .tabNewsHotC1 span{display:block;float:left;width:130px;padding-top:11px;text-align:right}
+#tabNewsHot .tabNewsHotC div{padding-left:20px}
+.bannerRunLeft{position:fixed;color:#FFF;width:129px;height:464px}
+.bannerRunRight{position:fixed;color:#FFF;width:129px;height:464px}
+.imageOffer{position:absolute;color:#FFF;width:165px;height:20px;line-height:47px;text-align:center;background:url(https://sites.google.com/site/shidienthoai07/km1.gif) no-repeat center}
+.imagedropzoom{position:absolute;color:#FFF;width:82px;height:360px;line-height:47px;text-align:center;background:url(https://sites.google.com/site/shidienthoai07/zoom.png) no-repeat center}
+.imagedropCate{position:absolute;color:#FFF;width:22px;height:27px;line-height:47px;text-align:center;background:url(https://sites.google.com/site/shidienthoai07/tendropCate.jpg) no-repeat center}
+.imagedropCateR{position:absolute;color:#FFF;width:779px;height:13px;line-height:47px;text-align:right;background:url(https://sites.google.com/site/shidienthoai07/tendropCateR.jpg) no-repeat right}
+.box_pro_home{border-bottom:0 solid #c8c8c8;border-left:0 solid #c8c8c8;border-right:0 solid #c8c8c8}
+.newsLeftTitle{padding-left:8px;padding-bottom:5px;padding-top:5px}
+.newsLeftTitle a{color:#0566c4;text-decoration:none;line-height:18px;font-family:Arial}
+.newsLeftTitle a:hover{text-decoration:underline}
+.tabNewsHotLeft{width:16px;background:url(https://sites.google.com/site/shidienthoai07/bgg_menu_home_left.jpg) no-repeat;height:39px}
+.tabNewsHotRight{width:16px;background:url(https://sites.google.com/site/shidienthoai07/bgg_menu_home_right.jpg) no-repeat;height:39px}
+.box_border_pro_home{border-left:1px solid #cacaca;border-right:1px solid #cacaca}
+.box_border_pro_home div{padding-left:4px;padding-right:4px}
+.box_product_home{border:1px solid #d7d7d7;width:178px;margin-bottom:12px;text-align:center}
+.box_product_home .quantity{font-weight:bold;color:#7ca50d;margin-top:6px}
+.box_product_home .offer{font-size:12px;font-family:Arial,Helvetica,sans-serif}
+.box_product_home_list{width:270px;height:190px;margin-right:3px;margin-left:3px}
+.box_product_home_space{width:10px}
+.box_product_homedetail{background:url(https://sites.google.com/site/shidienthoai07/boxProSpec.jpg) no-repeat;width:188px;height:259px;text-align:center;margin-right:35px}
+.box_product_footer{background:url(https://sites.google.com/site/shidienthoai07/boxProfooter.jpg) no-repeat;width:188px;height:208px;text-align:center;margin-right:35px}
+.news_list_left{width:745px}
+.news_list_right{width:205px;border-left:0 solid #dbdbdb}
+.news_list_right .paddings{padding-left:10px}
+.news_list_left .title_category_news{text-transform:uppercase;font-weight:bold;font-size:16px;border-bottom:1px solid #a6a6a6;margin:10px 0}
+.news_list_left .news_category_left{width:510px;margin-right:58px;border:0 solid #666}
+.news_list_left .news_category_left .image{width:157px;text-align:center}
+.news_list_left .news_category_left .infonews{width:345px;color:#4b4b4b}
+.news_list_left .news_category_left .infonews a{font-size:12px;color:#000;text-decoration:none}
+.news_list_left .news_category_right{width:170px;border:0 solid #666}
+.news_list_left .news_category_right a{color:#4b4b4b;font-size:11px;text-decoration:none}
+.news_list_left .news_category_right a:hover,.news_list_left .news_category_left .infonews a:hover{text-decoration:underline}
+.news_list_left .news_category_right div{width:12px;float:left;padding-top:5px;margin-bottom:5px}
+.news_list_left .news_category_right span{width:155px;float:left;display:block;margin-bottom:5px}
+.news_list_left .news_category_right p{clear:both}
+.news_list_right .bgg_cate_news{background:url(https://sites.google.com/site/shidienthoai07/bgg_cate_news.jpg) no-repeat;height:24px;width:201px}
+.news_list_right .bgg_cate_news div{width:166px;float:left;padding:4px 0 0 8px;color:#f40309;text-transform:uppercase;font-weight:bold}
+.news_list_right .bgg_cate_news span{width:26px;float:left;display:block;padding:6px 0 0}
+.news_list_right .bgg_cate_news p{clear:both}
+.news_list_right .title_category_news{padding-left:20px}
+.news_list_right .title_category_news a{font-family:Tahoma,Geneva,sans-serif;font-size:11px;font-weight:bold;text-decoration:none;color:#000;text-decoration:none;line-height:22px}
+.news_list_right .images{width:53px;margin:10px 0}
+.news_list_right .title_info{width:140px;margin:10px 0}
+.news_list_right .title_info a{color:#606060;text-decoration:none}
+.stepline{text-decoration:line-through}
+.stepbuild{background-color:#000}
+.stepbuild div{padding:4px 0 4px 4px;color:#FFF;font-weight:bold}
+.boxBuild{border:1px solid #CCC}
+.buildChoice{font-size:14px;text-align:right}
+.buildChoice a{font-size:12px;color:#06C;text-decoration:none}
+.buildChoice a:hover{text-decoration:underline}
+.backcate a{text-decoration:none;color:#333;font-weight:bold}
+.fixbox{float:left;width:900px}
+.box_product_home_padding{padding:5px}
+.divhr{border-bottom:1px dotted #CCC;padding-top:5px;padding-bottom:5px}
+.product_home_image{display:table-cell;height:145px;margin-right:5px;overflow:hidden;vertical-align:middle;width:178px}
+.product_home_info{width:112px;font-size:11px}
+.product_home_info_list{width:143px;font-size:11px}
+.product_product_home{height:26px;padding-bottom:5px;padding-top:5px;overflow:hidden}
+.product_product_home a{color:#000;text-decoration:none;font-weight:bold}
+.product_product_home_r{padding-bottom:5px;padding-top:5px;text-align:center}
+.product_product_home_r a{color:#747474;text-decoration:none;font-weight:bold}
+.product_product_home a:hover{text-decoration:underline}
+.dooter{border-bottom:1px dotted #c2c2c2;margin:6px 0 6px 0}
+.contactDetail{border:1px solid #ccc;font-family:arial}
+.boxDetailBorder{border-bottom:1px solid #e4e4e4;border-left:1px solid #e4e4e4;border-right:1px solid #e4e4e4}
+.product_home_price_ajax{color:#363636}
+.product_home_price_ajax b{color:#e02129}
+.hrr{color:#e0e0e0;padding-left:10px;margin:0}
+.footer_left{width:12px;height:158px;background:url(https://sites.google.com/site/shidienthoai07/footer_left.gif) no-repeat}
+.footer_right{width:12px;height:158px;background:url(https://sites.google.com/site/shidienthoai07/footer_right.gif) no-repeat}
+.footer_center{width:976px;height:158px;background:url(https://sites.google.com/site/shidienthoai07/footer_center.gif) repeat-x}
+.footer_center .datetime{width:200px;color:#fff;padding:8px 0 0}
+.footer_center .share{width:200px;color:#fff;padding:8px 0 0}
+.footer_center .infoF{width:570px;text-align:right;color:#fff;font-weight:bold;padding:8px 0 0}
+.footer_center .infoF a{color:#fff;text-decoration:none}
+.footer_center .infoF a:hover{text-decoration:underline}
+.footer_center .addressT{padding-top:20px;line-height:22px;color:#000;font-size:14px}
+.footer_center .addressT b{font-size:16px}
+.footer_center .addressT .address{width:430px;color:#000}
+.footer_center .addressT a{color:#000;text-decoration:none}
+.bggcounter{width:190px;height:155px;background:url(https://sites.google.com/site/shidienthoai07/bggcounter.gif) no-repeat;font-family:Arial}
+.bggcounter .online{padding:42px 0 0 40px}
+.bggcounter .today{padding:6px 0 0 40px}
+.bggcounter .yesterday{padding:6px 0 0 40px}
+.bggcounter .counter{padding:6px 0 0 40px}
+.bggcounter .online div,.today div,.yesterday div,.counter div{width:75px;float:left}
+.bggcounter .online span,.bggcounter .today span,.bggcounter .yesterday span,.bggcounter .counter span{width:65px;float:left;text-align:right}
+.footerUnder{width:1000px;height:130px;background:url(https://sites.google.com/site/shidienthoai07/footerUnder1.gif) no-repeat;margin-right:auto;margin-left:auto}
+.footerUnder div a{color:#FFF}
+.footerUnder div{padding-top:25px;padding-left:10px;color:#FFF;line-height:18px}
+.footerUnder div span{font-size:14px;font-weight:bold}
+.footer_left_1{width:280px;padding-top:20px;color:#0068c3}
+.footer_left_1 select{background:url(/includhttps://sites.google.com/site/shidienthoai07/bggAdd.gif) no-repeat;width:210px;height:25px;border:0;padding-top:3px;padding-right:4px}
+.footer_left_2{width:160px;color:#0c6bc7;padding-left:15px}
+.footer_left_3{width:170px}
+.footer_left_4{width:170px}
+.footer_left_5{width:170px}
+.footer_left_2 p,.footer_left_3 p,.footer_left_3 p,.footer_left_4 p,.footer_left_5 p{padding-top:20px;color:#0249b3;font-weight:bold;font-family:Tahoma;font-size:11px}
+.footer_left_2 a,.footer_left_3 a,.footer_left_3 a,.footer_left_4 a,.footer_left_5 a{color:#000;font-family:Arial;text-decoration:none;line-height:18px;font-size:12px}
+.footer_left_2 a:hover,.footer_left_3 a:hover,.footer_left_3 a:hover,.footer_left_4 a:hover,.footer_left_5 a:hover{text-decoration:underline}
+.register_email{width:375px;color:#fff;line-height:18px;font-size:11px;padding-top:25px}
+.support_buy{width:195px;padding-top:25px;color:#fff;line-height:18px}
+.support_buy a{font-size:11px;color:#fff;text-decoration:none}
+.support_buy a:hover{text-decoration:underline}
+.support_buy p{padding-bottom:5px;font-weight:bold}
+.method{width:188px;padding-top:25px;color:#fff;line-height:18px}
+.method a{font-size:11px;color:#fff;text-decoration:none}
+.method a:hover{text-decoration:underline}
+.method p{padding-bottom:5px;font-weight:bold}
+.office{width:175px;padding-top:25px;color:#fff;line-height:18px;font-size:11px}
+.office a{font-size:11px;color:#fff;text-decoration:none}
+.office p{padding-bottom:5px;font-weight:bold}
+.info_address{width:500px;color:#fff;font-size:11px}
+.visit{width:150px;margin-right:10px}
+.visit div{width:150px;margin-right:20px;background:url(https://sites.google.com/site/shidienthoai07/bggVisit.jpg) no-repeat;height:31px;padding-top:8px;padding-left:5px;color:#2c81f5}
+.share{width:260px;color:#fff}
+.proasBrandBox{border-left:1px solid #c5c5c5;border-right:1px solid #c5c5c5;background-color:#efefef}
+.proasBrand{text-align:center;line-height:18px;font-size:11px;padding-top:7px;padding-bottom:7px}
+.proasBrand a{color:#9c9a9b;text-decoration:none}
+.proasBrand b{color:#ff0100}
+.buildCate{width:180px;margin-bottom:5px;border:1px solid #CCC;padding-top:4px;height:24px;padding-left:2px}
+.buildPro{width:580px;margin-bottom:5px;border:1px solid #CCC;padding-top:4px;height:24px;padding-left:4px}
+.cart_left{width:570px}
+.cart_right{width:175px;text-align:right}
+.pro_header_l{width:47px}
+.pro_header_r{width:47px}
+.pro_header_c{width:905px}
+.copy{width:290px;color:#FFF;padding-top:10px}
+.info{width:680px;text-align:right;color:#FFF;padding-top:10px}
+.info a{text-decoration:none;color:#FFF;font-size:11px}
+.info a:hover{text-decoration:underline}
+.logo_footer{width:240px;padding-top:20px}
+.bgg_fot_red{width:240px;padding-top:30px;margin-right:2px}
+.bgg_fot_red div{background:url(https://sites.google.com/site/shidienthoai07/bgg_fot_red.gif) no-repeat;height:153px}
+.address_footer{font-size:12px;color:#010101;margin-top:5px;line-height:16px;font-family:Arial}
+.address_footer span{color:#fe0002;font-weight:bold;padding-right:5px}
+.bgg_fot_red p{text-transform:uppercase;font-weight:bold;color:#FFF;padding-left:30px;padding-top:5px;padding-bottom:15px}
+.bgg_fot_red span{display:block;padding-bottom:5px;padding-left:15px;color:#FFF}
+.bgg_fot_red span a{font-family:Arial;color:#FFF;text-decoration:none}
+.bgg_fot_red span a:hover{text-decoration:underline}
+.box_cate_other{border-right:2px solid #d2d2d2;border-left:2px solid #c5cfe3}
+.box_cate_other p{padding-top:5px}
+.box_cate_other p a{color:#1b74ce;font-size:11px;font-weight:bold;text-decoration:none;padding-left:10px}
+.box_cate_other p a:hover{color:#5b5b5b}
+.box_cate_other p b{color:#5b5b5b}
+.category_other{background-color:#ecf2ff;height:24px;border:1px solid #c5cfe3}
+.category_other div{color:#1b74ce;font-family:Tahoma;font-size:11px;padding-top:5px;font-weight:bold;padding-left:6px}
+.brandLeft{color:#000;padding-left:0;line-height:22px;font-family:tahoma;font-size:11px;width:93px}
+.box_atribute{background-color:#fff;border-left:0 solid #d1d1d1;border-right:0 solid #d1d1d1;border-bottom:0 solid #d1d1d1}
+.box_atribute p{font-weight:bold;padding-left:10px;padding-bottom:10px}
+.font_menu_atri{color:#555;font-size:11px;font-weight:bold;padding-left:3px;padding-top:3px;padding-bottom:5px;font-family:tahoma}
+.fontAtri{color:#000;padding-left:0;line-height:22px;font-family:tahoma}
+.fontAtri a{color:#000;text-decoration:none;line-height:18px;font-size:11px;font-family:tahoma}
+.fontAtri a:hover{text-decoration:underline}
+.fontAtri span{color:#000}
+.fontAtriPrice{color:#000;padding-left:0;line-height:22px;font-family:tahoma;font-size:11px}
+.fontAtriPrice a{color:#000;text-decoration:none;line-height:18px;font-family:tahoma}
+.fontAtriPrice a:hover{text-decoration:underline}
+.fontAtriPrice span{color:#000}
+.fontAtriBrand{color:#3c3e39;font-family:Arial}
+.fontAtriBrand a{color:#3c3e39;text-decoration:none;font-size:11px}
+.fontAtriBrand span{color:#3c3e39}
+#sx_center{background:url(https://sites.google.com/site/shidienthoai07/sx_center.gif) repeat-x;width:100%;border-collapse:collapse}
+#sx_center table{font-weight:bold}
+.num_pro{width:130px;padding-top:10px;color:#333}
+.show_style{width:158px;padding-top:10px;color:#333}
+.show_paging{width:390px;padding-top:10px;color:#333;text-align:right}
+.sosanh{width:75px;padding-top:10px}
+.bgg_top_product_list{height:26px;background-color:#e5e5e5;padding-top:4px}
+.bgg_top_product_list_ten{float:left;width:22px}
+.bgg_top_product_list_compare{float:left;width:85px}
+.compareItemContain{float:left;width:30px}
+.bgg_top_product_list_display{float:left;width:185px;color:#878787}
+.bgg_top_product_list_order{float:left;width:160px;text-align:right}
+.product_list_left{width:780px}
+.product_list_space{width:10px}
+.product_list_right{width:205px;border-left:1px solid #DBDBDB}
+.product_list_right_big{width:353px}
+.product_list_box{border-left:1px solid #d3d3d3;border-right:1px solid #d3d3d3;border-bottom:1px solid #d3d3d3}
+.check_box{float:left;width:20px}
+.box_info{float:left;background-color:#FFF;border-bottom:1px solid #CCC}
+.box_info1{float:left;background-color:#FFF;border-bottom:1px solid #CCC}
+.pro_info1{float:left;width:400px;margin-right:7px}
+#tb_product_list{border-collapse:collapse;width:100%;border-right:1px solid #CCC;border-left:1px solid #CCC}
+#tb_product_list td{border-bottom:1px solid #CCC}
+.pro_image{width:180px;text-align:center}
+.pro_info{}
+.pro_price{width:160px;text-align:center;border-left:1px solid #CCC;vertical-align:middle}
+.productName{margin-bottom:8px}
+.productName a{font-weight:bold;color:#000;text-decoration:none;font-family:arial}
+.productName a:hover{text-decoration:underline}
+.borderPro{border-bottom:1px solid #999;margin-top:4px;margin-bottom:4px}
+.info_left{width:270px;margin-right:40px;line-height:18px;font-family:Arial}
+.info_left span{color:#676767}
+.info_right{width:200px;text-align:center}
+.model{color:#444;margin-bottom:10px;margin-top:5px;font-size:13px}
+.summary{font-size:12px;color:#979797;margin-bottom:7px;line-height:18px;margin-top:5px}
+.offer{margin-bottom:10px;color:#000}
+.offer b{color:#fa0606}
+.warranty{margin-bottom:10px;color:#000;font-size:11px}
+.price_list{font-size:14px;color:#fe0002;margin-bottom:6px;margin-top:10px;font-family:Arial}
+.box_pro_grid{float:left;width:182px;text-align:center;border:1px solid #CCC;margin-bottom:6px;margin-top:6px;margin-left:3px}
+.box_pro_grid_true{float:left;width:182px;text-align:center;border:1px solid #CCC;margin-bottom:15px;margin-top:6px;margin-left:3px}
+.box_pro_grid_true .productName{height:30px;overflow:hidden}
+.box_pro_grid_true_detail{float:left;width:185px;text-align:center;border:0 solid #CCC;margin-bottom:6px;margin-top:6px;background-color:#FFF}
+.spaceGrid{float:left;width:10px}
+.border_box_detail{border-left:2px solid #d2d2d2;border-right:2px solid #d2d2d2}
+.product_detail_image{float:left;width:290px;text-align:center;margin-right:15px}
+.imgDetailBox{border-left:0 solid #c0c0c0;border-right:0 solid #c0c0c0}
+.imgDetailBox img{max-height:250px;width:auto !important;height:expression(this.height > 250px ? 250px:true)}
+.product_detail_info{float:left;width:436px;margin-right:6px}
+.product_detail_guide{float:left;width:190px;background:url(https://sites.google.com/site/shidienthoai07/hd.jpg) no-repeat;height:173px}
+.product_detail_guide div{padding:40px 0 0 6px}
+.product_detail_guide div a{color:#333;line-height:22px;text-decoration:none}
+.product_detail_info_bgg_name{background:url(https://sites.google.com/site/shidienthoai07/bggName.gif) no-repeat;width:473px;height:45px}
+.detail_pro{}
+.detail_pro h1{font-size:18px;color:#444;margin-bottom:10px}
+.product_detail_info_bgg_name p{color:#000;font-family:Arial;padding-left:8px}
+.summary_detail{color:#595959;font-size:12px;line-height:18px}
+.summary_detail p{color:#000;font-weight:bold;padding-bottom:5px;padding-top:10px}
+.summary_detail div{padding-left:20px}
+.pro_info_detail{color:#000;line-height:20px;font-family:Arial,Helvetica,sans-serif}
+.pro_info_detail span{color:#000}
+.info_buy{color:#000;font-size:11px;line-height:18px}
+.info_buy p{color:#000;font-weight:bold;padding-bottom:5px;padding-top:10px}
+.info_buy span{color:#ed313f}
+.info_buy div{padding-left:20px}
+.price_detail{color:#000;font-size:12px;line-height:18px;margin-bottom:6px}
+.price_detail p{color:#000;font-weight:bold;padding-bottom:5px;padding-top:10px}
+.price_detail span{color:#FF0014;font-size:14px}
+.infopro{color:#727272;line-height:18px}
+.boxOffer{font-size:13px;background:#fff8cc;border:solid 1px #ffe222;padding:3px 5px;margin-bottom:10px}
+.forcols a{color:#44403e;font-weight:bold;text-decoration:none}
+.forcols a:hover{text-decoration:underline}
+.show_relate{text-align:left;padding-left:20px}
+.show_relate a{font-family:Arial;color:#1a74d4;text-decoration:none}
+.show_relate a:hover{text-decoration:underline}
+.bgg_menu_detail_left{width:10px;height:31px;background:url(https://sites.google.com/site/shidienthoai07/bgg_menu_detail_left.gif) no-repeat}
+.bgg_menu_detail_right{width:10px;height:31px;background:url(https://sites.google.com/site/shidienthoai07/bgg_menu_detail_right.gif) no-repeat}
+.bgg_menu_detail_center{width:765px;height:31px;background:url(https://sites.google.com/site/shidienthoai07/bgg_menu_detail_center.gif) repeat-x}
+.bgg_menu_detail_center div{color:#999;font-weight:bold;font-size:14px;padding-top:5px;float:left;width:365px}
+.bgg_menu_detail_center span{display:block;width:390px;float:left;padding-top:7px;text-align:right}
+.bgg_menu_detail_center span a{text-decoration:none;font-size:11px;color:#0364c3}
+.ideal{color:#383838;font-weight:bold}
+.ideal a{color:#1972cc;text-decoration:none}
+#cat_path{margin-bottom:10px;padding-left:0}
+#cat_path a{text-decoration:none;color:#444}
+#cat_path b{color:#990}
+.box_category_list{float:left;width:190px;margin-left:10px}
+.img_cate_list{width:550px;margin-right:29px;padding-top:15px}
+.text_cate_list{width:190px;padding-top:15px}
+.catNameChild a{color:#595959;text-decoration:none}
+.catNameChild a:hover{text-decoration:underline}
+.catNameChildRight{padding:4px}
+.catNameChildRight a{color:#064fc0;font-family:Arial;line-height:18px;text-decoration:none}
+.catNameChildRight a:hover{text-decoration:underline}
+.box_category_list_space{float:left;width:20px}
+.border_box_category_list{border:1px solid #e7e7e7;padding:6px;height:90px}
+.border_box_category_list:hover{border:1px solid #C30}
+.border_box_cate{border:1px solid #b6c6e8;height:190px;margin-left:4px;margin-right:4px;margin-bottom:4px;text-align:center}
+.box_category_home{float:left;width:165px;text-align:center}
+.box_category_home_space{float:left;width:30px}
+.box_category_home div{height:160px}
+.box_category_home a{font-family:Tahoma;font-size:13px;color:#002c52;font-weight:bold}
+.box_category_home a:hover{text-decoration:none}
+.box_menu_left{border-top:1px solid #d2d3d5;border-left:1px solid #d2d3d5;border-right:1px solid #d2d3d5;margin-bottom:5px}
+.bgg_menu_news_left{height:28px;background:url(https://sites.google.com/site/shidienthoai07/bgg_news_left.gif) repeat-x}
+.bgg_menu_news_left div{padding-top:5px;text-transform:uppercase;font-weight:bold;color:#c5131f;font-size:11px;padding-left:7px}
+.bold{font-weight:bold}
+.cate_news{padding-left:7px;line-height:18px;border-bottom:1px solid #cfcfcf;padding-top:3px;padding-bottom:3px}
+.cate_news a{color:#191919;font-family:Arial;text-decoration:none}
+.cate_news a:hover{text-decoration:underline}
+.hr_contact{border-bottom:1px solid #d9d9d9;margin-right:8px;margin-left:8px;margin-bottom:4px;margin-top:4px}
+.contact_hotline{padding-left:4px;padding-bottom:4px}
+.contact_hotline span{color:#fe0406;font-size:16px;font-family:Arial}
+.contact_email{color:#1b68ae;font-size:11px;padding-left:4px;padding-bottom:4px}
+.intro_title{font-size:16px;padding-bottom:3px;font-family:Tahoma}
+#intro_title{font-size:24px;color:#096;margin-bottom:5px}
+.box_newslist{background-color:#fff9f9;border:1px solid #e7e6e4;padding:5px}
+.newsLeft{float:left;width:110px;margin-right:5px}
+.newsRightR{float:left;width:600px;margin-top:5px;font-size:13px}
+.newsRightR a{color:#1967b1;font-weight:bold;text-decoration:none}
+.newsRightR a:hover{text-decoration:underline}
+.newsdate{color:#b8b4b3;font-size:12px;font-family:Arial}
+.newsDes{color:#524e4d;font-family:Arial}
+.border_link_news{border-bottom:1px solid #c1bdbc;margin-bottom:4px;margin-top:4px;width:700px}
+.detail_news{width:62px;margin-bottom:4px;margin-left:4px}
+.intro_title_detail{font-family:Arial;font-size:20px}
+.path_news{font-size:11px;color:#186ab0;border-bottom:1px solid #CCC;padding-bottom:4px}
+.path_news a{font-size:11px;color:#186ab0;text-decoration:none}
+.tinkhac a{color:#00459d;text-decoration:none;line-height:18px}
+.tinkhac a:hover{text-decoration:underline}
+.cart_user{color:#009541;font-size:20px}
+.product_cart{color:#00176b}
+.product_cart_gia{color:#6e6e6e}
+.product_cart b{color:#fe0003}
+.product_cart a{color:#1b7ad4;text-decoration:none}
+.member{font-size:18px;color:#005291;margin-top:6px;text-transform:uppercase}
+.forgot-pass{color:#757575;font-family:Tahoma}
+.about_title{padding-bottom:5px;padding-top:8px;line-height:18px;color:#5e5e5e;font-family:Arial;font-size:12px}
+.about_title_tit{color:#f60000;padding-top:5px;padding-bottom:5px;text-transform:uppercase;font-size:11px;font-family:Tahoma}
+.menu_about{padding-top:5px;padding-bottom:10px;color:#1c64ac;font-family:Arial}
+.menu_about a{color:#1c64ac;font-family:Arial;text-decoration:none}
+.membership a{color:#1967b1;font-weight:bold;text-decoration:none}
+.membership a:hover{text-decoration:underline}
+ul,ol{list-style:none}
+.proPicoSpecial1{clear:both}
+.leftPicoSpecial1{float:left;width:160px}
+.rightPicoSpecial1{float:left;width:320px}
+.padd_space{padding-left:8px;padding-right:10px}
+.padd_space_header{padding-left:3px;padding-right:3px}
+.background_body{background:url(https://sites.google.com/site/shidienthoai07/bggBody.jpg) repeat-y;width:1018px}
+.line_intro{float:left;width:400px;margin-bottom:6px;margin-top:6px}
+.line_intro a{color:#005397}
+.line_cart{float:left;width:580px;text-align:right;margin-bottom:6px;margin-top:6px}
+.line_cart a{color:#005397}
+.banner_header{float:left;width:365px}
+.payment{float:left;width:80px;color:#5a5a5a;text-align:right}
+.payment_cart{float:left;width:300px;text-align:right}
+.search_left{float:left;width:280px;margin-bottom:5px;margin-top:5px;padding-left:5px}
+.search_left a{font-family:Tahoma;font-size:10px;font-weight:bold;color:#015496}
+.search_left a:hover{text-decoration:none}
+.search_right{float:left;width:700px;text-align:right;margin-bottom:5px;margin-top:5px}
+.input{float:right;width:304px;height:27px;background:url(https://sites.google.com/site/shidienthoai07/bggFind.jpg) repeat-x;text-align:left}
+.input div{padding-top:6px}
+.submit{float:right;width:73px;height:27px}
+.left_find{float:right;background:url(https://sites.google.com/site/shidienthoai07/left_hv.jpg) no-repeat;width:28px;height:27px}
+/*.bggS{background:url(https://sites.google.com/site/shidienthoai07/bggFind.jpg) repeat-x;width:304px;height:20px;border:0;color:#aeaeae;font-size:11px;padding-top:7px}
+*/.bggS{border:0;width:300px;color:#000;font-size:11px}
+.border_footer{background:url(https://sites.google.com/site/shidienthoai07/bggF.jpg) no-repeat;width:1019px;height:16px}
+.body_home_left{float:left;width:727px;margin-right:4px}
+.body_home_right{float:left;width:260px}
+.bgg_product_hot{background:url(https://sites.google.com/site/shidienthoai07/bggspbc.jpg) repeat-x;height:28px;border:1px solid #c2c8cc}
+.bgg_product_hot div{padding-top:5px;padding-left:10px;font-size:15px;color:#f00;text-transform:uppercase}
+.bgg_product_hot span{display:block;padding-top:8px;padding-left:10px;font-size:11px;color:#000;font-family:Tahoma;text-transform:uppercase}
+.box_product_hot{border-bottom:1px solid #c2c8cc;border-left:1px solid #c2c8cc;border-right:1px solid #c2c8cc;padding:4px}
+.box_proHome{float:left;width:156px;margin-right:10px;text-align:center;margin-top:6px}
+.arrow{float:left;width:26px;padding-top:40px}
+.arrowbt{text-align:center;padding-top:5px;padding-bottom:5px}
+.name_product_home a{color:#002c52;font-weight:bold;font-family:Tahoma;font-size:11px;text-decoration:none}
+.name_product_home a:hover{text-decoration:underline}
+.product_home_img{height:120px;border:1px solid #e5e5e5;margin-bottom:4px;padding-top:5px}
+.product_home_price{color:#f00;font-family:Tahoma;font-size:11px;font-weight:bold}
+.left_menu_other{float:left;background:url(https://sites.google.com/site/shidienthoai07/left_menu_other.jpg) no-repeat;width:27px;height:32px}
+.right_menu_other{float:left;background:url(https://sites.google.com/site/shidienthoai07/right_menu_other.jpg) no-repeat;width:11px;height:32px}
+.right_menu_other_hot{float:left;background:url(https://sites.google.com/site/shidienthoai07/right_menu_other_hot.jpg) no-repeat;width:45px;height:32px}
+.center_menu_other_hot{float:left;background:url(https://sites.google.com/site/shidienthoai07/center_menu_other.jpg) repeat-x;height:32px;width:188px}
+.center_menu_other_hot div{font-family:Tahoma;font-size:11px;text-transform:uppercase;font-weight:bold;color:#FFF;padding-top:8px}
+.center_menu_other{float:left;background:url(https://sites.google.com/site/shidienthoai07/center_menu_other.jpg) repeat-x;height:32px;width:222px}
+.center_menu_other div{font-family:Tahoma;font-size:11px;text-transform:uppercase;font-weight:bold;color:#FFF;padding-top:8px}
+.center_menu_other_small{float:left;background:url(https://sites.google.com/site/shidienthoai07/center_menu_other.jpg) repeat-x;height:32px;width:122px}
+.center_menu_other_small div{font-family:Tahoma;font-size:11px;text-transform:uppercase;font-weight:bold;color:#FFF;padding-top:8px}
+.news_images{float:left;width:75px;margin-right:4px;margin-left:4px;margin-top:4px}
+.news_info{line-height:18px;padding:4px}
+.news_info a{color:#012c88;text-decoration:none}
+.news_info a:hover{text-decoration:underline}
+.news_info_small{margin-top:4px;padding:4px}
+.news_info_small a{color:#022d4f}
+.news_info_small a:hover{text-decoration:none}
+.box_new{border-left:1px solid #cacaca;border-right:1px solid #cacaca;border-bottom:1px solid #cacaca;margin-bottom:4px;background:url(https://sites.google.com/site/shidienthoai07/bggNewsTitle.jpg) no-repeat bottom}
+.hotrott{color:#656565;font-size:11px;font-family:Tahoma;padding:5px;line-height:18px;margin-bottom:6px}
+.hotrott b{color:#000}
+.show_all_news{text-align:right;margin-bottom:5px;padding-right:4px;padding-top:10px}
+.show_all_news a{font-size:10px;font-weight:bold;color:#f00}
+.footer{padding:6px}
+.footer_info{float:left;width:160px}
+.footer_info div{color:#ee3124;margin-bottom:6px;font-weight:bold}
+.footer_info span a{color:#000;text-decoration:none;display:block;line-height:18px}
+.footer_info span a:hover{text-decoration:underline}
+.footer_online{float:left;width:230px}
+.footer_online div{color:#ee3124;margin-bottom:6px;font-weight:bold}
+.footer_online span a{color:#000;text-decoration:none;display:block;line-height:18px}
+.footer_online span a:hover{text-decoration:underline}
+.footer_policy{float:left;width:230px}
+.footer_policy div{color:#ee3124;margin-bottom:6px;font-weight:bold}
+.footer_policy span a{color:#000;text-decoration:none;display:block;line-height:18px}
+.footer_policy span a:hover{text-decoration:underline}
+.footer_address{float:left;width:380px;color:#002c52;font-family:Tahoma;line-height:18px;text-align:right}
+.footer_address a{color:#002c52}
+.column_atribute{width:188px;float:left;margin-right:5px}
+.column_news{width:160px;float:left}
+.product_hot_right{text-align:center;font-family:Tahoma;font-size:12px;margin-bottom:4px}
+.product_hot_right span{font-weight:bold;color:#fa0000}
+.product_hot_right a{color:#0f4988}
+.product_hot_right a:hover{text-decoration:none}
+.line_hot{border-bottom:1px dotted #c9c9c9}
+.border_table_product_list{border-right:1px solid #ccc}
+.order_pro_select{color:#878787}
+.order_pro{color:#545454}
+.column_cate{float:left;width:175px;margin-right:10px}
+.column_cate a{font-family:Tahoma;font-size:11px;color:#0a518f;line-height:18px;text-decoration:none}
+.column_cate a b{color:#F00}
+.column_cate a:hover{text-decoration:underline}
+.product_image{padding-top:6px;height:165px}
+.transporter{font-family:Tahoma;font-size:11px;color:#000;margin-bottom:4px}
+.wantity{margin-bottom:10px;color:000}
+.wantity b{color:#3cc}
+.offer_detail{margin-bottom:10px;color:#F00;margin-top:5px;font-weight:bold}
+.offer_detail b{color:#000}
+.quantity{margin-bottom:6px;font-weight:bold}
+.displayError{margin:10px}
+.column_detail_left{float:left;width:825px;margin-right:5px}
+.column_detail_right{float:left;width:160px}
+.need_quantity{color:#666;font-family:Tahoma;font-size:11px;text-align:center}
+.need_quantity_select{font-size:11px;border:1px solid #999;margin-top:4px;width:50px}
+.categoryPath{color:#aaa;padding-bottom:4px}
+.categoryPath a{color:#aaa;text-decoration:none}
+.spcungloai a{font-family:Tahoma;font-size:11px;font-weight:bold;color:#000;text-decoration:none}
+.spcungloai a:hover{text-decoration:none}
+#account_menu{height:200px;border-right:1px solid #CCC}
+#account_menu a{font-weight:bold;color:#06C}
+#account_menu ul{list-style:none;margin:0;padding:0}
+#account_menu li{margin-bottom:5px}
+.newsTop a{color:#005dce;font-family:Tahoma;font-size:16px;font-weight:bold;text-decoration:none}
+.newsTop a:hover{text-decoration:underline}
+.name_sitemap{margin-top:5px;margin-bottom:5px}
+.name_sitemap a{color:#000;text-decoration:none}
+.name_sitemap_child a{color:#06F;padding-left:20px;text-decoration:none}
+.column_list_info{float:left;width:610px;margin-right:2px}
+.column_list_atribute{float:left;width:185px}
+.box_detail{border:1px solid #CCC}
+.hr_detail{border-top:1px solid #d5d5d5}
+.info_detail{float:left;width:355px;margin-right:7px;border-right:1px dotted #CCC}
+.info_detail_price{float:left;width:150px}
+.bggline{font-weight:bold;color:#F00;background-color:#e5e5e5;font-size:1px}
+.filterPath{color:#F00;background-color:#e5e5e5;padding-top:5px;padding-bottom:5px}
+.keyword a{text-decoration:none}
+.keyword a:hover{text-decoration:underline}
+.bgg_nick_online{background:url(https://sites.google.com/site/shidienthoai07/bgg_nickonline.jpg) repeat-x;height:40px;margin-bottom:4px}
+.bgg_nick_online div{padding-top:10px}
+.bgg_nick_online div span{padding-left:30px}
+.product_show{border:1px solid #666;width:420px;background:url(https://sites.google.com/site/shidienthoai07/bgg_box.jpg) repeat-x;height:200px}
+.product_show h2{color:#FFF;text-align:center;margin-bottom:5px;font-family:Arial}
+.product_show_left{width:287px}
+.product_show_left a{color:#000;line-height:18px;text-decoration:none;font-size:11px}
+.product_show_left a:hover{text-decoration:underline}
+.product_show_right{width:109px;text-align:right;color:#F00;font-weight:bold}
+.bgg_news_run{width:540px;background:url(https://sites.google.com/site/shidienthoai07/box_tin_run.png) no-repeat;height:46px}
+.bgg_news_run div{padding-top:7px}
+.news_run{width:500px}
+.news_run a{color:#3a3f43;text-decoration:none;font-weight:bold}
+.news_close{width:30px;text-align:right}
+.locsanpham{background-color:#4a6bb2;height:26px}
+.locsanpham div{padding-top:5px;font-weight:bold;color:#FFF;padding-left:5px;text-transform:uppercase}
+.pagingSpace{width:4px}
+.pagingFarSide{width:15px}
+.pagingIntact A{display:block;padding:1px 4px 0;text-decoration:none;font-size:12px;border:1px solid #000;color:#000}
+.pagingIntact A:hover{color:#FFF;background-color:#000;padding-left:4px;padding-right:4px;font-size:12px}
+.pagingViewed{font-size:12px;color:#fff;padding-left:4px;padding-right:4px;padding-bottom:2px;padding-top:1px;background-color:#000}
+.pagingSpace{width:4px}
+.paging_ajax A{border:1px solid #CCC;text-decoration:none;color:#F00;font-family:Tahoma;font-size:11px;padding-top:1px;padding-bottom:2px;padding-right:5px;padding-left:5px;font-weight:bold}
+.paging_select A{border:1px solid #CCC;color:#fff;font-family:Tahoma;font-size:11px;padding-top:1px;padding-bottom:2px;padding-right:5px;padding-left:5px;font-weight:bold;background-color:#000}
+.paging_ajax A:hover{color:#fff;background-color:#000}
+.pagingFarSide{width:25px}
+.highlight{background-color:#FF6}
+.buid-title{}
+.buid-title .cssSymbol{width:46px;height:54px;display:inline-block;background:url("https://sites.google.com/site/shidienthoai07/icon-buid.png") no-repeat scroll left top transparent;vertical-align:middle}
+.buid-title h1{display:inline-block;padding-left:10px;vertical-align:middle}
+.buid-table{border:1px solid #CFCFCF;width:100%}
+.buid-table .buid-process{border-right:solid 1px #ccc}
+.buid-table .buid-view{width:218px}
+.process-title{height:53px;background:url("https://sites.google.com/site/shidienthoai07/icon-buid.png") repeat-x scroll left -56px transparent;border-bottom:solid 1px #cfcfcf}
+.process-title p{margin:0;padding:18px 0 0 10px;font-weight:bold;font-size:14px}
+.process-title a{font-size:12px;color:#002e96;text-decoration:underline;font-weight:100}
+.process-title a:hover{text-decoration:none}
+.process-filter{width:160px;padding-left:5px}
+.process-filter h2{font-size:12px}
+.process-filter ul{padding-bottom:10px}
+.process-filter li{padding:5px 0}
+.process-filter li .symbol{width:8px;height:8px;background:url("https://sites.google.com/site/shidienthoai07/icon-buid.png") repeat-x scroll left -110px transparent;display:inline-block;vertical-align:middle}
+.process-filter a{color:#4b4b4b;text-decoration:none}
+.process-filter a:hover{color:#e3081c}
+.process-right{border-left:1px solid #eee}
+.bTitle{background-color:#eee;font-weight:bold;text-align:center}
+.bTitle td{padding:5px 0}
+.bTitle-cols1{width:50px}
+.bTitle-cols2{width:100px}
+.bTitle-cols3{}
+.bTitle-cols4{width:100px}
+.bList{}
+.bList td{vertical-align:top;border-bottom:1px dotted #EEE}
+.bList:hover{background-color:#fff6e5}
+.bList p{margin:0;padding-bottom:5px}
+.bList-cols1{width:40px;text-align:center;font-weight:bold}
+.bList-cols2{width:100px}
+.bList-cols3{}
+.bList-cols4{width:100px;text-align:center}
+.bList .cssImg img{max-width:85px}
+.bList .cssName a{color:#000;text-decoration:none;font-weight:bold}
+.bList .cssName a:hover{text-decoration:underline}
+.bList .cssSummary{color:#666}
+.bList .cssPrice{color:#f00;font-weight:bold}
+.bList .cssSelect a{color:#002e96;text-decoration:underline}
+.bList .cssSelect a:hover{text-decoration:none}
+.view-title{height:53px;background:url("https://sites.google.com/site/shidienthoai07/icon-buid.png") repeat-x scroll left -56px transparent;border-bottom:solid 1px #cfcfcf}
+.view-title p{margin:0;padding:8px 0 0 10px;font-weight:bold;font-size:14px}
+#pc_part_total_price{font-weight:bold;padding:5px 0 0 10px}
+#pc_part_total_price span{color:#f30000}
+.view-content{padding-left:10px;padding-right:10px}
+.view-content h2{font-size:12px}
+.view-content p{margin:0;padding-bottom:5px}
+.view-content .cssName{}
+.view-content .cssName a{color:#272727;text-decoration:none}
+.view-content .cssName a:hover{text-decoration:underline}
+.view-content .cssSelect{padding-bottom:10px}
+.view-content .cssSelect b{color:#f00;padding-right:10px}
+.view-content .cssSelect a{text-decoration:underline;color:#002e96}
+.view-content .cssSelect a:hover{text-decoration:none}
+.view-content #pc_part_select div{border-bottom:1px dotted #C0C0C0}
+.product_show_run{float:right;position:fixed;bottom:0;z-index:300;right:0;overflow:hidden;padding:2px;width:420px;border:0 solid #F19286}
+* html.product_show_run{position:absolute;top:expression(offsetParent.scrollTop+document.documentElement.clientHeight-this.offsetHeight)}
+.box_run{float:leff;position:fixed;bottom:0;z-index:300;leff:0;overflow:hidden;padding:2px;width:420px;border:0 solid #F19286}
+* html.box_run{position:absolute;top:expression(offsetParent.scrollTop+document.documentElement.clientHeight-this.offsetHeight)}
+.box_run_a{float:leff;position:fixed;bottom:0;z-index:300;leff:0;overflow:hidden;padding:2px;width:420px;border:0 solid #F19286}
+* html.box_run_a{position:absolute;top:expression(offsetParent.scrollTop+document.documentElement.clientHeight-this.offsetHeight)}
+#cart-title{background-color:#EEE;margin:5px 0;padding:5px}
+#table-shopping-cart{border-collapse:collapse;width:100%}
+#table-shopping-cart td{padding:5px 7px}
+#shopping-cart-first-row{background-color:#F1F1F1;color:#930;font-size:11px;font-weight:700}
+#shopping-cart-stt-col{width:20px}
+#shopping-cart-price-col{width:110px}
+#shopping-cart-quantity-col{width:80px}
+#shopping-cart-sum-col{width:120px}
+#shopping-cart-del-col{width:70px}
+.b_shop{margin-bottom:20px}
+.b_shop a{font-size:12px;text-decoration:none;padding:5px 10px;margin:0 10px 0 0;border-radius:5px;-moz-border-radius:5px;background:#838383;color:#fff}
+.b_shop a:hover{background:#e85929}
+.frm_submit{width:100%}
+.frm_submit td{border-bottom:1px dotted #E0E0E0;padding:10px 0}
+.frm_submit input[type=text]{width:340px}
+.register ul,.register li{list-style-type:none;margin-top:10px}
+.register h3{border-bottom:1px dotted #585858;font-weight:700;padding:10px 0;padding-left:0;font-size:11px}
+.register .cssText{width:200px}
+.register .cssTitle{color:#575757;font-size:13px;font-weight:700;padding:10px}
+.register-login,.register-info{float:left;width:50%}
+.register-login .cols1,.register-info .cols1{float:left;padding-left:10px;width:30%}
+.register-login .cols2,.register-info .cols2{float:left;width:60%}
+.register{line-height:29px;padding-bottom:20px}
+#acco.banner-hd{padding:2px 0;text-align:center}
+.comp{background:url(https://sites.google.com/site/shidienthoai07/btn5.png) no-repeat left center;padding-left:90px;height:25px;line-height:25px;display:block;margin-top:8px;float:right}
+.old-prc{font-size:11px;color:#666;height:14px}
+.btn_lienhe{display:block;margin-top:6px}
+.customer_support{border:solid 1px #007ac8;margin-bottom:10px}
+.customer_support h2{height:25px;background:#007ac8;line-height:25px;color:white;padding-left:10px;font-size:13px}
+.customer_support .content_box{padding:10px}
+.customer_support .content_box .list_link a{color:#305299;display:block;padding:3px 0}
+.customer_support .content_box h3{color:#305299;margin:10px 0}
+.customer_support .content_box h3 .icon_comment{background-position:-290px -167px;width:37px;height:29px}
+.customer_support .content_box b.red{font-size:14px;display:block;margin-bottom:10px}
+.customer_support p{margin:7px 0}
+.bgg_main_top{height:30px;background-color:#323232;border-bottom:1px solid #f00}
+.bgg_main_top .mar{margin-left:auto;margin-right:auto;width:1000px}
+.bbg_header{width:100%;background:#eee;border-bottom:4px solid #007ac8}
+.icon_register{background-position:-225px 0;width:20px;height:20px;margin-top:5px;margin-right:5px}
+.icon_login{background-position:-260px 0;width:20px;height:20px;margin-top:5px;margin-right:5px;margin-left:10px}
+.bgg_main_top .mar .text{margin-top:6px}
+.bgg_main_top .mar .text a{text-decoration:none;color:#fff}
+.bgg_main_top .mar .text a:hover{text-decoration:underline}
+.bgg_main_top span{padding-left:10px;padding-right:10px;color:#787878}
+.color_header{width:1000px;margin:0 auto;height:109px}
+.logo_{background-position:0 0;width:204px;height:35px;margin-top:30px;margin-left:10px}
+.header_space{width:175px}
+.header_left{width:605px}
+.bgg_search{background-position:0 -48px;width:256px;height:26px}
+.bgg_search span{display:block;padding:5px 0 0 5px}
+.bgg_search span input{width:245px;height:12px;border:0;color:#b6b6b6}
+.button_search{background-position:-256px -48px;border:0 none;cursor:pointer;height:26px;margin-right:95px;width:26px}
+.header_left .rows1{margin-top:30px}
+.icon_cart{background-position:-330px -40px;width:42px;height:33px;margin-right:10px}
+.text_cart{color:#717171;margin-top:6px}
+.text_cart span{color:#333;font-weight:bold}
+.text_cart a{font-size:11px;color:#007ac8}
+.header_left .rows2{height:35px;background-color:#007ac8;border-radius:5px 5px 0 0;margin-top:11px;padding:0 121px}
+.header_left .rows2 .text{margin-top:9px}
+.header_left .rows2 .text a{color:#fff;text-decoration:none}
+.header_left .rows2 .text a:hover{text-decoration:underline}
+.header_left .rows2 .icon_forum{background-position:-281px 0;width:22px;height:18px;margin-top:8px;margin-right:6px;margin-left:7px}
+.header_left .rows2 .icon_gianhang{background-position:-314px 0;width:16px;height:16px;margin-top:8px;margin-right:6px;margin-left:12px}
+.header_left .rows2 .icon_download{background-position:-373px 0;width:14px;height:16px;margin-top:8px;margin-right:6px;margin-left:12px}
+.header_left .rows2 .icon_build{background-position:-344px 0;width:16px;height:14px;margin-top:8px;margin-right:6px;margin-left:12px}
+.header_left .rows2 .icon_service{background-position:-444px 0;width:16px;height:16px;margin-top:8px;margin-right:6px;margin-left:12px}
+.box_support{border-top:1px solid #e8e1b8;border-bottom:1px solid #e8e1b8;border-left:1px solid #e8e1b8;background-color:#fffceb;height:73px;width:978px;margin-bottom:10px}
+.box_support_arrow{background-position:-446px -200px;width:10px;height:75px;margin-bottom:10px}
+.box_support .col1{width:437px}
+.box_support .col2{width:322px;margin-left:5px}
+.box_support .col3{width:202px;margin-left:5px}
+.box_support .yahoo{margin-top:8px;padding-left:16px;padding-right:5px}
+.box_support .yahoo span{padding-left:10px;padding-right:10px}
+.box_support .yahoo a{text-decoration:none}
+.icon_bhtt{background-position:0 -91px;width:165px;height:25px}
+.icon_bhtt div{text-transform:uppercase;color:#000;font-weight:bold;padding:5px 0 0 5px;font-size:11px}
+.icon_phone{background-position:-405px 0;width:24px;height:20px;margin-right:7px}
+.text_phone{margin-top:3px;font-weight:bold;font-family:arial;font-size:14px;color:#e02129}
+.banner_home{width:625px}
+.video{width:360px}
+.bgg_news_hot{background-position:0 -200px;width:230px;height:28px}
+.box_left_bot{background-position:0 -320px;width:230px;height:12px;margin-bottom:10px}
+.hrr_dooter{border-bottom:1px dotted #b4b4b4;margin-bottom:6px;margin-top:6px}
+.box_left{border-left:1px solid #e0e2e3;border-right:1px solid #e0e2e3;background-color:#f7f7f8}
+.box_left .padds{padding:5px}
+.bgg_pro_hot{background-position:0 -240px;width:230px;height:28px}
+.price_left,.offer_left{color:#363636;margin-top:6px}
+.price_left b,.offer_left b{color:#e02129}
+.all_left{text-align:right;font-size:11px}
+.all_left a{color:#e02129;text-decoration:none;font-weight:bold}
+.bgg_email_register{background-position:0 -342px;width:230px;height:28px}
+.bgg_email_register div{text-transform:uppercase;color:#fff;padding:7px 0 0 13px;font-weight:bold}
+.bgg_email_input{background-position:0 -280px;width:180px;height:22px;margin-top:10px}
+.bgg_email_input span{display:block;padding:2px 0 0 3px}
+.bgg_email_input span input{width:170px;border:0}
+.button_email{background-position:-180px -280px;width:30px;height:22px;margin-top:10px}
+.submit_email{background-position:-234px -88px;width:62px;height:25px;margin-top:10px;cursor:pointer;margin-left:150px}
+.bgg_pro_home{background-position:-305px -88px;width:174px;height:28px}
+.bgg_pro_home div{color:#fff;font-weight:bold;padding:6px 0 0 16px;text-transform:uppercase}
+.gach_center{background:url(https://sites.google.com/site/shidienthoai07/gach_center.gif) repeat-x;height:28px;width:515px}
+.icon_back{background-position:-416px -39px;width:21px;height:21px;margin-right:6px;margin-left:6px}
+.icon_next{background-position:-443px -39px;width:21px;height:21px;margin-right:6px}
+.icon_buy{background-position:-304px -120px;width:101px;height:25px;margin-top:6px;margin-left:34px}
+.bgg_thanhtoan{background:url(https://sites.google.com/site/shidienthoai07/bgg_thanhtoan.gif) repeat-x;height:41px;margin-bottom:10px;border-top:2px solid #e1e2e4;background-color:#f5f5f5;border-bottom:1px solid #e1e2e4}
+.footer_1{width:230px;margin-right:35px}
+.footer_2{width:230px;margin-right:10px}
+.bgg_footer_title{background-position:-304px -151px;width:169px;height:25px;margin-bottom:20px}
+.bgg_footer_title div{text-transform:uppercase;color:#fff;padding:6px 0 0 5px}
+.page_title{padding-bottom:10px}
+.page_title span{padding-right:10px;font-weight:bold;color:#a0a0a0}
+.page_title a{color:#000;text-decoration:none}
+.page_title a:hover{text-decoration:underline}
+.logo_footer_{background-position:-305px -199px;width:104px;height:20px;margin-bottom:10px}
+.footer_1 table tr td,.footer_1 table tr td a{color:#000;text-decoration:none}
+.footer_1 table tr td b{color:#a0a0a0}
+#tamnhin_detail_page .box_product_home_space{width:9px !important}
+.box_slider_show{width:990px;height:auto;float:left}
+.protip-summary{max-height:165px;overflow:hidden}
+.hidden-tip p{margin:0;padding:4px}
+.hidden-tip ul{margin:4px}
+.protip-title{background-color:#007ac8;padding:4px;color:#fff;padding-left:4px}
+.protip-title span{color:#fd0d2a}
+/*.protip-title .symbol{margin-right:5px;display:inline-block;width:39px;height:38px;background:urlhttps://sites.google.com/site/shidienthoai07/Global/icon.png") no-repeat scroll -190px -649px transparent}
+*/.protip-title .symbol{margin-right:5px;display:inline-block;width:10px}
+.protip-title .cssName{width:260px;line-height:18px}
+.protip-content{border:solid 1px #007ac8;padding:5px;color:#585858}
+.protip-content .cssPrice .symbol{float:left;width:30px;height:27px;margin-right:10px;vertical-align:middle}
+.protip-content{padding-top:5px}
+.protip-content .cssPrice p{margin:0;padding:0}
+.protip-content .cssPrice .cssText{float:left}
+.protip-content .cssPrice .cssPrice{color:#c00000;font-size:20px;font-weight:bold;height:27px;padding-top:6px}
+.protip-content .cssPrice .cssPriceLine{color:#000;text-decoration:line-through;font-size:16px}
+.protip-content .cssPrice .cssPriceOnline{color:#c00000;font-weight:bold;font-size:20px}
+.protip-content .cssPrice .cssPriceSale{color:#c00000;font-weight:bold;font-size:20px}
+.protip-content .cssSaleoff .symbol{display:inline-block;margin-right:5px;vertical-align:top;width:27px;height:23px}
+.protip-content .cssSaleoff .cssText{display:inline-block;line-height:18px;width:250px}
+.protip-content .cssInfo{border-top:1px dotted #C0C0C0;padding-top:3px}
+.protip-content .cssInfo .symbol{display:inline-block;margin-right:5px;vertical-align:top;width:30px;height:25px}
+.protip-content .cssInfo .cssText{display:inline-block;line-height:18px;width:250px}
+.protip-content .cssShipping .symbol{vertical-align:middle;display:inline-block;height:25px;margin-right:5px;vertical-align:top;width:30px}
+.protip-content .cssShipping .cssText{display:inline-block;line-height:18px;width:250px}
+.protip-content .cssSaleoff p{margin:0;padding:5px 0 0}
+.protip-content .cssSaleoff-text{padding-left:10px;color:Red}
+.protip-content .cssSaleoff-text .symbol1{float:left;height:22px;width:22px}
+.offer{padding-left:10px}
+#dhtmltooltip{position:absolute;width:150px;border:2px solid #f1562a;background-color:lightyellow;visibility:hidden;z-index:100; filter:progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);-moz-border-radius:0 0 7px 7px;-webkit-border-radius:0 0 7px 7px;-moz-box-shadow:2px 2px 4px #f9ea8f;-webkit-box-shadow:2px 2px 4px #f9ea8f;box-shadow:2px 2px 2px #f9ea8f}
+#dhtmltooltip .proTooltip{background-color:#f1562a;padding:4px;color:#000;padding-left:4px}
+#dhtmltooltip .proTooltip span{color:#fff}
+.priceTooltip{color:#f00;font-weight:bold;padding-top:5px;padding-left:4px;padding-bottom:6px}
+#dhtmltooltip .priceTooltip b{color:#817fad}
+#dhtmltooltip .summaryTooltip{padding-top:5px;line-height:18px;padding-left:4px;padding-right:4px;color:#54409a}
+#dhtmltooltip .offerTooltip{padding-top:5px;line-height:18px;padding-left:4px;padding-right:4px;color:#000}
+#dhtmltooltip .offerTooltip b{color:red}
+#dhtmlpointer{position:absolute;left:-300px;z-index:101;visibility:hidden}
+ul{list-style:none}
+#menu{background:url(https://sites.google.com/site/shidienthoai07/bgg_menu.gif);height:41px}
+#menu ul.dropdown{position:relative}
+#menu ul.dropdown li{float:left}
+#menu ul.dropdown a:hover{}
+#menu ul.dropdown a:active{color:#ffa500}
+#menu ul.dropdown li a{display:block;padding:4px 0 4px 4px;color:#222;text-decoration:none}
+#menu ul.dropdown li:last-child a{border-right:none}
+#menu ul.dropdown li.hover,#menu ul.dropdown li:hover{color:black;position:relative}
+#menu ul.dropdown li.hover a{color:black}
+#menu ul.dropdown li .firts{float:left;padding:0 0 0 5px;text-decoration:none}
+#menu ul.dropdown li .firts span{display:block;padding:13px 22px 13px 17px;font-size:12px;color:#363636;text-decoration:none}
+#menu ul.dropdown li .firts:hover{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_left.jpg) left top no-repeat;background-position:0% -41px}
+#menu ul.dropdown li .firts:hover span{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_right.jpg) right top no-repeat;background-position:100% -41px;font-size:12px;color:#fff;text-decoration:none}
+#menu ul.dropdown .curent .firts{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_left.jpg) left top no-repeat;background-position:0% -41px}
+#menu ul.dropdown .curent .firts span{background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_right.jpg) right top no-repeat;background-position:100% -41px;font-size:12px;color:#fff;text-decoration:none}
+#menu .bgg{float:left;background:url(https://sites.google.com/site/shidienthoai07/menu_pro_detail_bgg.jpg) repeat-x;height:38px;width:977px;border-left:0 solid #b1b1b1;border-right:0 solid #b1b1b1}
+#menu .tabMenuDmL{width:4px;background:url(https://sites.google.com/site/shidienthoai07/tabMenuDmL.jpg) no-repeat;height:29px}
+#menu .tabMenuDmR{width:10px;background:url(https://sites.google.com/site/shidienthoai07/tabMenuDmR.jpg) no-repeat;height:43px}
+#menu ul.dropdown ul{width:220px;visibility:hidden;position:absolute;top:100%;left:0;border:1px solid #ccc;border-radius:4px;box-shadow:2px 2px 2px #CCC;background:#fff;z-index:9999}
+#menu ul.dropdown ul li{font-weight:normal;color:#000;float:none;border-bottom:1px solid #ccc}
+#menu ul.dropdown ul li:last-child{border-bottom:none}
+#menu ul.dropdown ul li a{border-right:none;width:100%;display:inline-block;color:#004b91}
+#menu ul.dropdown ul li a:hover{text-decoration:underline;color:#e47911}
+#menu ul.dropdown ul ul{left:100%;top:0}
+#menu ul.dropdown li:hover > ul{visibility:visible}
+#menuVertical{}
+#menuVertical li #firts{background:url("../ihttps://sites.google.com/site/shidienthoai07/menu4.gif") no-repeat;display:block;padding:5px 5px 5px 32px;text-decoration:none;color:#06F;border:0}
+#menuVertical li #firts:hover{background-position:0% -32px}
+#menuVertical li #current{background-position:0% -32px}
+.suckerdiv ul{margin:0;padding:0;list-style-type:none; border-bottom:1px solid #ccc}
+.suckerdiv ul li{position:relative}
+.suckerdiv ul li ul{position:absolute;width:170px; top:0;visibility:hidden;background-color:#fff;z-index:9999}
+.suckerdiv ul li a{display:block;overflow:auto; color:black;text-decoration:none;background:#fff;padding:4px 5px 4px 4px;border:1px solid #ccc;border-bottom:0}
+.suckerdiv ul li a:visited{color:black}
+.suckerdiv ul li a:hover{background-color:yellow}
+.suckerdiv .subfolderstyle{background:url(../ihttps://sites.google.com/site/shidienthoai07/arrow-list.gif) no-repeat center right}
+* html .suckerdiv ul li{float:left;height:1%}
+* html .suckerdiv ul li a{height:1%}
